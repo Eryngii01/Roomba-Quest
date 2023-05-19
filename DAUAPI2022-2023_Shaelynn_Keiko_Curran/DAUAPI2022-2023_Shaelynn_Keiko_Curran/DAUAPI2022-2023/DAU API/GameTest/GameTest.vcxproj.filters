@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="App\app.cpp" />
+    <ClCompile Include="App\main.cpp" />
+    <ClCompile Include="App\SimpleController.cpp" />
+    <ClCompile Include="App\SimpleSound.cpp" />
+    <ClCompile Include="App\SimpleSprite.cpp" />
+    <ClCompile Include="App\TextureLoader.cpp" />
+    <ClCompile Include="GameTest.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="World.cpp">
+      <Filter>Update</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInputComponent.cpp">
+      <Filter>Component\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPhysicsComponent.cpp">
+      <Filter>Component\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGraphicsComponent.cpp">
+      <Filter>Component\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectFactory.cpp">
+      <Filter>Factory Method</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Update</Filter>
+    </ClCompile>
+    <ClCompile Include="TileGraphicsComponent.cpp">
+      <Filter>Component\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TilePhysicsComponent.cpp">
+      <Filter>Component\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstaclePhysicsComponent.cpp">
+      <Filter>Component\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleGraphicsComponent.cpp">
+      <Filter>Component\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerGraphicsComponent.cpp">
+      <Filter>Component\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGraphicsComponent.cpp">
+      <Filter>Component\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPhysicsComponent.cpp">
+      <Filter>Component\Physics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\app.h" />
+    <ClInclude Include="App\AppSettings.h" />
+    <ClInclude Include="App\main.h" />
+    <ClInclude Include="App\SimpleController.h" />
+    <ClInclude Include="App\SimpleSound.h" />
+    <ClInclude Include="App\SimpleSprite.h" />
+    <ClInclude Include="App\TextureLoader.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="GameObject.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Update</Filter>
+    </ClInclude>
+    <ClInclude Include="InputComponent.h">
+      <Filter>Component\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPhysicsComponent.h">
+      <Filter>Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsComponent.h">
+      <Filter>Component\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGraphicsComponent.h">
+      <Filter>Component\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInputComponent.h">
+      <Filter>Component\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>Factory Method</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Update</Filter>
+    </ClInclude>
+    <ClInclude Include="TileGraphicsComponent.h">
+      <Filter>Component\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TilePhysicsComponent.h">
+      <Filter>Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstaclePhysicsComponent.h">
+      <Filter>Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleGraphicsComponent.h">
+      <Filter>Component\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerGraphicsComponent.h">
+      <Filter>Component\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGraphicsComponent.h">
+      <Filter>Component\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPhysicsComponent.h">
+      <Filter>Component\Physics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Component">
+      <UniqueIdentifier>{65776e7c-bb6f-43f6-be2a-c9487b53ec2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Update">
+      <UniqueIdentifier>{54723c43-ce21-43eb-9a8c-d4b5cdeb3ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Input">
+      <UniqueIdentifier>{6372813c-25ec-430a-8e27-9dc7c6dd5fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Physics">
+      <UniqueIdentifier>{309dc2af-c175-4076-b467-9d2c6f2b81be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Graphics">
+      <UniqueIdentifier>{7ed8fdc5-cc25-4abe-b72d-eacd3e655ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory Method">
+      <UniqueIdentifier>{0dcbaeeb-6aa6-4a47-8308-78f31fca1d48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

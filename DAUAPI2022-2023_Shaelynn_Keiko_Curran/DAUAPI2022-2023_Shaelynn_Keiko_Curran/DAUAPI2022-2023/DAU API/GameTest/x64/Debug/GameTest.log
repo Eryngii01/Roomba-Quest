@@ -1,0 +1,270 @@
+﻿  EnemyPhysicsComponent.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\EnemyPhysicsComponent.cpp(10,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\EnemyPhysicsComponent.cpp(11,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  GameObject.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  GameObjectFactory.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\TileGraphicsComponent.h(23,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\TileGraphicsComponent.h(23,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\ObstacleGraphicsComponent.h(30,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\ObstacleGraphicsComponent.h(30,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\ObstacleGraphicsComponent.h(45,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\ObstacleGraphicsComponent.h(45,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\GameObjectFactory.cpp(75,87): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\GameObjectFactory.cpp(75,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(163,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=float,
+              _Other=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=float,
+              _Other=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(797): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Exact_args_t,float,float,0>(_Tag,_This2 &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(797): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Exact_args_t,float,float,0>(_Tag,_This2 &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(242): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,_Ty,0,1,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1>)' being compiled
+          with
+          [
+              _Ty=std::tuple<float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(241): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,_Ty,0,1,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1>)' being compiled
+          with
+          [
+              _Ty=std::tuple<float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(367): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,std::tuple<float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(367): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,std::tuple<float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\TileGraphicsComponent.h(17): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<float,float,0>(std::tuple<float,float> &&) noexcept' being compiled
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\TileGraphicsComponent.h(17): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<float,float,0>(std::tuple<float,float> &&) noexcept' being compiled
+  GameTest.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Level.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(81,43): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(223,46): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(224,48): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(238,64): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(238,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(237,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(237,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(243,64): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(243,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(242,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(242,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(247,64): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(247,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(246,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(246,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(256,51): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(257,47): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(260,64): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(260,36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(259,77): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\Level.cpp(259,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  ObstacleGraphicsComponent.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\ObstacleGraphicsComponent.h(30,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\ObstacleGraphicsComponent.h(30,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\ObstacleGraphicsComponent.h(45,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\ObstacleGraphicsComponent.h(45,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(163,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=float,
+              _Other=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=float,
+              _Other=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(797): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Exact_args_t,float,float,0>(_Tag,_This2 &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(797): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Exact_args_t,float,float,0>(_Tag,_This2 &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(242): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,_Ty,0,1,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1>)' being compiled
+          with
+          [
+              _Ty=std::tuple<float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(241): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,_Ty,0,1,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1>)' being compiled
+          with
+          [
+              _Ty=std::tuple<float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(367): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,std::tuple<float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(367): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,std::tuple<float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\ObstacleGraphicsComponent.h(24): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<float,float,0>(std::tuple<float,float> &&) noexcept' being compiled
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\ObstacleGraphicsComponent.h(24): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<float,float,0>(std::tuple<float,float> &&) noexcept' being compiled
+  ObstaclePhysicsComponent.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  PlayerGraphicsComponent.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  PlayerInputComponent.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  PlayerPhysicsComponent.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PlayerPhysicsComponent.cpp(42,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PlayerPhysicsComponent.cpp(43,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PlayerPhysicsComponent.cpp(115,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PlayerPhysicsComponent.cpp(115,36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PlayerPhysicsComponent.cpp(118,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PlayerPhysicsComponent.cpp(118,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PlayerPhysicsComponent.cpp(138,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PlayerPhysicsComponent.cpp(138,36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PlayerPhysicsComponent.cpp(141,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PlayerPhysicsComponent.cpp(141,25): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  TileGraphicsComponent.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\TileGraphicsComponent.h(23,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\TileGraphicsComponent.h(23,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(163,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=float,
+              _Other=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(234): message : see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=float,
+              _Other=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(797): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Exact_args_t,float,float,0>(_Tag,_This2 &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(797): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Exact_args_t,float,float,0>(_Tag,_This2 &&,float &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(242): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,_Ty,0,1,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1>)' being compiled
+          with
+          [
+              _Ty=std::tuple<float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(241): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,_Ty,0,1,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned __int64,0,1>)' being compiled
+          with
+          [
+              _Ty=std::tuple<float,float>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(367): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,std::tuple<float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\tuple(367): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Unpack_tuple_t,std::tuple<float,float>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<float,float>
+          ]
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\TileGraphicsComponent.h(17): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<float,float,0>(std::tuple<float,float> &&) noexcept' being compiled
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\TileGraphicsComponent.h(17): message : see reference to function template instantiation 'std::tuple<int,int>::tuple<float,float,0>(std::tuple<float,float> &&) noexcept' being compiled
+  TilePhysicsComponent.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  TimerGraphicsComponent.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  UIGraphicsComponent.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  World.cpp
+C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\GameTest\PhysicsComponent.h(24,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+  GameTest.vcxproj -> C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\x64\Debug\GameTest.exe
+  C:\Users\80Cur\Downloads\DAUAPI2022-2023\DAU API\\GameTest\glut\bin\x64\freeglut.dll
+  1 File(s) copied
